@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="yinlei.com.readassets.MainActivity">
+
+    <Button
+        android:id="@+id/btn_read_asset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取assets目录下资源"/>
+
+    <Button
+        android:id="@+id/btn_read_raw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取raw目录下资源"/>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="在这里输入内容，写入到内部存储区域"
+        />
+
+    <Button
+        android:id="@+id/btn_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存数据"/>
+
+    <Button
+        android:id="@+id/btn_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取数据"/>
+
+    <TextView
+        android:id="@+id/show_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edit_text_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="在这里输入内容存储到外部存储区域"
+        />
+
+
+    <Button
+        android:id="@+id/btn_write_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="写入数据"/>
+
+    <Button
+        android:id="@+id/btn_write_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读出数据"/>
+
+    <TextView
+        android:id="@+id/show_text_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
